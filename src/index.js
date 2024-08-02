@@ -11,21 +11,6 @@ root.render(
   </React.StrictMode>
 );
 
-console.log("anything");
-function add(a, b) {
-  return a + b;
-}
-console.log(add(1, 2));
-
-function multiplication(a, b) {
-  return a * b;
-}
-console.log(multiplication(2, 3));
-
-function subtract(a, b) {
-  return a - b;
-}
-console.log(subtract(5, 4));
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
