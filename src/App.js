@@ -1,26 +1,37 @@
-import logo from "./logo.svg";
 import "./App.css";
+import logo from "./assets/images/dinnerDaddyLogo.png";
+import SearchBar from "./components/SearchBar/SearchBar";
+import User from "./components/User/User";
+import bankUsers from "./assets/data/bankUsers.json";
 
 function App() {
+  const bankEmployee = {
+    name: "Yael",
+    balance: 10000,
+    email: "spongecola@gmail.com",
+  };
+
+  const address = {
+    houseNo: 74,
+    street: "Manila Street",
+    country: "Philippines",
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          <p>Hello World</p>
-          <p>Hello Partner A</p>
-          <p>Hello Partner</p>
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Hello World</h1>
+      {/* img src="./assets/image/logo.png" */}
+      <img src={logo} alt="logo"></img>
+      <SearchBar></SearchBar>
+      {/* <SearchBar/> */}
+      <User employee={bankEmployee} address={address}></User>
+      {bankUsers.map((bankUsers) => {
+        return (
+          <div key={bankUsers.id}>
+            {bankUsers.name} {bankUsers.balance}
+          </div>
+        );
+      })}
     </div>
   );
 }
