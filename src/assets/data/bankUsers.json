@@ -1,0 +1,17 @@
+[
+  {
+    "id": 0,
+    "name": "Juan Dela Cruz",
+    "balance": 5000
+  },
+  {
+    "id": 1,
+    "name": "Junjun Dela Paz",
+    "balance": 6500
+  },
+  {
+    "id": 2,
+    "name": "Junmar Fajardo",
+    "balance": 6500
+  }
+]

@@ -7,7 +7,7 @@ function User(params) {
   const { houseNo, street, country } = params.address;
   return (
     <div className="user">
-      <h1>
+      <h1 className="header1">
         Hello, {name}! <FontAwesomeIcon icon={faPencil} />
       </h1>
       <h4>Your email is {email}.</h4>
