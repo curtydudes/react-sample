@@ -6,12 +6,21 @@
   },
   {
     "id": 1,
+<<<<<<< HEAD
     "name": "JunJun Dela Paz",
     "balance": 53000
+=======
+    "name": "Junjun Dela Paz",
+    "balance": 6500
+>>>>>>> 7a7fab5554946bc6fb6b591556948051b6cc86c1
   },
   {
     "id": 2,
     "name": "Junmar Fajardo",
+<<<<<<< HEAD
     "balance": 15000
+=======
+    "balance": 6500
+>>>>>>> 7a7fab5554946bc6fb6b591556948051b6cc86c1
   }
 ]

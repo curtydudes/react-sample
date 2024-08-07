@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.6.0",
+<<<<<<< HEAD
+=======
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+>>>>>>> 7a7fab5554946bc6fb6b591556948051b6cc86c1
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/react-fontawesome": "^0.2.2",
